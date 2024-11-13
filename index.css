@@ -1,0 +1,39 @@
+*{
+    background-color:#282C33;
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 1px #C778DD;
+    padding: 0px 40px 0px 40px;
+}
+ .right{
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.home_Info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.dummy_img p{
+    border: solid 1px #C778DD;
+    padding: 20px;
+}
+.dummy_motivation{
+    display: flex;
+    flex-direction: column;
+}
+.dummy_motivation #slogan{
+    border:solid 1px #C778DD;
+}
+.dummy_motivation #by_Who{
+    border:solid 1px #C778DD;
+}
