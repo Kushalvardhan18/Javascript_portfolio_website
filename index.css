@@ -29,13 +29,14 @@ nav{
 }
 .left_Info{
     margin-inline: 20px;
-    font-size: 22px;
     display: flex;
     font-size: 30px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     text-wrap: wrap;
 }
+#p1{  font-size: 32px !important;}
+#p2{  font-size: 22px !important;}
 .motivation{
     display: flex;
     flex-direction: column;
@@ -44,9 +45,11 @@ nav{
     display: flex;
     flex-direction: column;
     position: relative;
+    align-items: center;
 }
 .dummy_img img{
     margin: 50px;
+    /* border-radius: 360px; */
 }
 .sq::before{
     content: "";
@@ -57,30 +60,34 @@ nav{
     margin-right: 10px;
     vertical-align: middle;
 }
-.dummy_img p{
+.sq{
     border: solid 1px #C778DD;
     padding: 10px;
     position: absolute;
     bottom: 5px;
-    padding-inline: 120px;
+    /* right: 0px; */
+    
 }
 
 .dummy_motivation{
     display: flex;
     flex-direction: column;
     position: relative;
+    align-items: center;
 }
 .dummy_motivation #slogan{
     border:solid 1px #C778DD;
-    padding-inline: 5px;
+    padding: 10px;
+    width: 30vw;
 }
 #by_Who{
     width: 100px;
     display: flex;
     justify-content: space-evenly;
-    border:solid 1px #C778DD;
+    border:solid 1px #ffffff;
     position: absolute;
-    top: 30px;
-    right: 50px;
+    top: 50px;
+    right: 75px;
+  
 }
 

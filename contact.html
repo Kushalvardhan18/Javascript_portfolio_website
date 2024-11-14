@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Me</title>
     <link rel="stylesheet" href="/contact.css" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
         <div class="left">
-          <h2>KushalVardhan's Portfolio</h2>
+          <img src="/images/logo.png" alt="" width="250px" />
         </div>
         <div class="right">
           <a href="/index.html">Home</a>
@@ -19,14 +26,27 @@
         </div>
       </nav>
     </header>
+    <div class="content">
+      <div class="left">
+        <form>
+          <input type="text" placeholder="FirstName" />
+          <input type="text" placeholder="LastName" />
+          <input type="email" placeholder="Email Address" />
+          <input type="text" placeholder="Message" />
+          <button>Submit</button>
+        </form>
+      </div>
+      <div class="right">
+        <button class="Download">Download Resume</button>
+      </div>
+    </div>
 
-    <form>
-      <input type="text" placeholder="FirstName" />
-      <input type="text" placeholder="LastName" />
-      <input type="email" placeholder="Email Address" />
-      <input type="text" placeholder="Message" />
-      <button>Submit</button>
-    </form>
-    <footer></footer>
+    <footer>
+      <div class="socials"></div>
+      <p>Web Designer and front-end Developer</p>
+      <div class="email"></div>
+      <div class="copyright">Copyright 2024. Made by KV</div>
+    </footer>
   </body>
+  <script src="script.js"></script>
 </html>
