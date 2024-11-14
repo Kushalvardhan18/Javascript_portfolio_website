@@ -1,13 +1,17 @@
 *{
     background-color:#282C33;
     color: white;
+    font-family:  "Fira Code";
 }
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: solid 1px #C778DD;
+    /* border: solid 1px #C778DD; */
     padding: 0px 40px 0px 40px;
+}
+.left{
+    display: flex;
 }
  .right{
     display: flex;
@@ -21,19 +25,62 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+    
 }
-.dummy_img p{
-    border: solid 1px #C778DD;
-    padding: 20px;
+.left_Info{
+    margin-inline: 20px;
+    font-size: 22px;
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: center;
+    text-wrap: wrap;
 }
-.dummy_motivation{
+.motivation{
     display: flex;
     flex-direction: column;
 }
+.dummy_img {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.dummy_img img{
+    margin: 50px;
+}
+.sq::before{
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #C778DD;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.dummy_img p{
+    border: solid 1px #C778DD;
+    padding: 10px;
+    position: absolute;
+    bottom: 5px;
+    padding-inline: 120px;
+}
+
+.dummy_motivation{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 .dummy_motivation #slogan{
     border:solid 1px #C778DD;
+    padding-inline: 5px;
 }
-.dummy_motivation #by_Who{
+#by_Who{
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
     border:solid 1px #C778DD;
+    position: absolute;
+    top: 30px;
+    right: 50px;
 }
+
