@@ -1,4 +1,4 @@
-
+// download resume functionality
 const resumeDownload = document.querySelector('.Download')
 resumeDownload.addEventListener("click", () => {
     const path = "/files/resume.pdf"
@@ -19,6 +19,7 @@ resumeDownload.addEventListener("click", () => {
         })
 })
 
+// twitter button functionality
 const twitter = document.querySelector("#twitter")
 const link1 = document.createElement('a')
 twitter.addEventListener('click', () => {
@@ -26,6 +27,8 @@ twitter.addEventListener('click', () => {
     link1.target = "_blank"
     link1.click()
 })
+
+// linkedIn button functionality
 const linkedIn = document.querySelector("#linkedIn")
 const link2 = document.createElement('a')
 linkedIn.addEventListener('click', () => {
@@ -33,6 +36,8 @@ linkedIn.addEventListener('click', () => {
     link2.target = "_blank"
     link2.click()
 })
+
+// mail button functionality
 const mail = document.querySelector("#mail")
 // const link3 =
 mail.addEventListener('click', () => {
@@ -44,11 +49,20 @@ mail.addEventListener('click', () => {
     window.location.href = mailtoLink
 })
 
+// leetcode button functionality
 const leetcode = document.querySelector("#leetcode")
 const link3 = document.createElement('a')
-leetcode.addEventListener('click',()=>{
+leetcode.addEventListener('click', () => {
     link3.href = "https://leetcode.com/u/Kuvar2941/"
     link3.target = "_blank"
     link3.click()
 })
 
+// github button functionality
+const github = document.querySelector("#github")
+const link4 = document.createElement('a')
+github.addEventListener('click', () => {
+    link4.href = "https://github.com/Kushalvardhan18"
+    link4.target = "_blank"
+    link4.click()
+})
