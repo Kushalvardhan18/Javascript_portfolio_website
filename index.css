@@ -90,4 +90,7 @@ nav{
     right: 75px;
   
 }
-
+.socials{
+    display: flex;
+    flex-wrap: wrap;
+}

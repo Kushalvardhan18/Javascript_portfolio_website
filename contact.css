@@ -3,3 +3,12 @@
     color: white;
     font-family:  "Fira Code";
 }
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+}
