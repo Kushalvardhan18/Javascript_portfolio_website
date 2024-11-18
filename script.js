@@ -38,12 +38,12 @@ linkedIn.addEventListener('click', () => {
 })
 
 // mail button functionality
-const mail = document.querySelector("#mail")
+const mail = document.querySelector(".mail")
 // const link3 =
 mail.addEventListener('click', () => {
     const email = "kushalvardhan1804@hotmail.com";
     const subject = "Hiring!!!";
-    const body = "Dear Kushal Vardhan,\n\nI hope this message finds you well. I am reaching out to discuss an exciting opportunity to collaborate with you. Your skills and expertise make you a perfect candidate for a role we are looking to fill. We value your unique talents and believe you would make a significant impact on our team.\n\nIf you're interested, I'd be delighted to provide more details and answer any questions you may have.\n\nLooking forward to hearing from you.\n\nBest regards,\n";
+    const body = "Dear Kushal Vardhan,\n\nI hope this message finds you well. I am reaching out to discuss an exciting opportunity to collaborate with you. Your skills and expertise make you a perfect candidate for a role we are looking to fill. We value your unique talents and believe you would make a significant impact on our team.\n\nIf you're interested, I'd be delighted to provide more details and answer any questions you may have.\n\nLooking forward to hearing from you.\n\nBest regards\n";
 
     const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink

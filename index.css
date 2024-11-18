@@ -94,3 +94,24 @@ nav{
     display: flex;
     flex-wrap: wrap;
 }
+.socials button{
+    border: 0px;
+    
+}
+
+.home_btns .mail{
+    border: #C778DD 1px solid;
+    background-color: transparent;
+    padding-block: 5px;
+    padding-inline: 10px;
+}
+.home_btns .Download{
+    border: #C778DD 1px solid;
+    background-color: transparent;
+    padding: 5px;
+    padding-inline: 10px;
+}
+
+footer{
+    margin-inline:20px ;
+}
