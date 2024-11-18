@@ -5,46 +5,22 @@ const emailInput = document.querySelector('#email_ID')
 const messageInput = document.querySelector('#message_To_Convey')
 
 
-submission.disabled = firstNameInput.value.trim() === "";
-firstNameInput.addEventListener('input', () => {
-    if (firstNameInput.value.trim() === "") {
-        submission.disabled = true
-    }
-    else {
-        submission.disabled = false
-
-    }
-})
-lastNameInput.addEventListener('input', () => {
-    if (lastNameInput.value.trim() === "") {
-        submission.disabled = true
-    }
-    else {
-        submission.disabled = false
-
-    }
-})
-emailInput.addEventListener('input', () => {
-    if (emailInput.value.trim() === "") {
-        submission.disabled = true
-    }
-    else {
-        submission.disabled = false
-
-    }
-})
-messageInput.addEventListener('input', () => {
-    if (messageInput.value.trim() === "") {
-        submission.disabled = true
-    }
-    else {
-        submission.disabled = false
-
-    }
-})
+const isValid = ()=> {
+    const Invalidation =
+    firstNameInput.value.trim() === "" ||
+    lastNameInput.value.trim() === "" ||
+    emailInput.value.trim() === "" ||
+    messageInput.value.trim() === "" 
+    submission.disabled = Invalidation
+}
+[firstNameInput,lastNameInput,emailInput,messageInput].forEach( input=> {
+    input.addEventListener('input',isValid)
+});
+isValid()
 
 submission.addEventListener('click', (e) => {
-    // e.preventDefault()
+    e.preventDefault()
+   
     const firstName = document.querySelector('#first_Name').value
     const lastName = document.querySelector('#last_Name').value
     const email = document.querySelector('#email_ID').value
