@@ -66,3 +66,9 @@ github.addEventListener('click', () => {
     link4.target = "_blank"
     link4.click()
 })
+
+// Route to home when click on logo
+const logo_Button = document.querySelector(".left img")
+logo_Button.addEventListener('click',()=>{
+    window.location.href = "/index.html"
+})
