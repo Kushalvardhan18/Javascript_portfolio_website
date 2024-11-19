@@ -24,22 +24,25 @@
           <a href="about.html">About</a>
           <a href="contact.html">ContactMe</a>
           <a href="hireme.html">HireMe!!</a>
-
         </div>
       </nav>
     </header>
     <div class="content">
+      <span id="contact_h">Contact</span>
       <div class="contact_form">
         <form id="contactForm">
-          <label for="first_Name">FirstName</label>
-          <input type="text" placeholder="FirstName" id="first_Name" />
-          <label for="last_Name">LastName</label>
-          <input type="text" placeholder="LastName" id="last_Name" />
+          <div id="fullName">
+            <label for="first_Name">FirstName</label>
+            <input type="text" placeholder="FirstName" id="first_Name" />
+            <label for="last_Name">LastName</label>
+            <input type="text" placeholder="LastName" id="last_Name" />
+          </div>
+
           <label for="email_ID">EmailID</label>
-          <input type="email" placeholder="Email Address" id="email_ID"/>
+          <input type="email" placeholder="Email Address" id="email_ID" />
           <label for="message_To_Convey">Message</label>
-          <textarea placeholder="Message" id="message_To_Convey"></textarea> />
-          <button id="submit_Form"  type="submit">Submit</button>
+          <textarea placeholder="Message" id="message_To_Convey"></textarea> 
+          <button id="submit_Form" type="submit">Submit</button>
         </form>
       </div>
       <div class="resume_download">
@@ -48,31 +51,50 @@
     </div>
     <footer>
       <div class="socials">
-        
         <button id="twitter">
-          <img src="/logo/11244080_x_twitter_elon musk_twitter new logo_icon.svg" alt="twitter" height="50px">
+          <img
+            src="/logo/11244080_x_twitter_elon musk_twitter new logo_icon.svg"
+            alt="twitter"
+            height="50px"
+          />
         </button>
         <button id="linkedIn">
-          <img src="/logo/104493_linkedin_icon.svg" alt="linkedIn" height="50px">
+          <img
+            src="/logo/104493_linkedin_icon.svg"
+            alt="linkedIn"
+            height="50px"
+          />
         </button>
         <button class="mail">
-          <img src="/logo/134146_mail_email_icon.svg" alt="mail" height="50px">
+          <img
+            src="/logo/134146_mail_email_icon.svg"
+            alt="mail"
+            height="50px"
+          />
         </button>
         <button id="leetcode">
-          <img src="logo/8541771_code_development_icon.svg" alt="leetcode" height="50px">
+          <img
+            src="logo/8541771_code_development_icon.svg"
+            alt="leetcode"
+            height="50px"
+          />
         </button>
         <button id="github">
-          <img src="logo/1220319_github_git_hub_repository_icon.svg" alt="github" height="50px">
+          <img
+            src="logo/1220319_github_git_hub_repository_icon.svg"
+            alt="github"
+            height="50px"
+          />
         </button>
       </div>
       <p>Web Designer and front-end Developer</p>
       <div class="copyright">Copyright 2024. Made by KV</div>
     </footer>
   </body>
-  <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+  ></script>
   <script src="script.js"></script>
   <script src="form.js"></script>
-  
 </html>
