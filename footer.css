@@ -1,0 +1,26 @@
+footer{
+    margin-inline:20px ;
+}
+.socials{
+    display: flex;
+    flex-wrap: wrap;
+}
+.socials button{
+    border: 0px;
+    
+}
+#twitter{
+    cursor: pointer;
+}
+#linkedIn{
+    cursor: pointer;
+}
+.mail{
+    cursor: pointer;
+}
+#leetcode{
+    cursor: pointer;
+}
+#github{
+    cursor: pointer;
+}

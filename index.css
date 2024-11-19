@@ -90,14 +90,7 @@ nav{
     right: 75px;
   
 }
-.socials{
-    display: flex;
-    flex-wrap: wrap;
-}
-.socials button{
-    border: 0px;
-    
-}
+
 
 .home_btns .mail{
     border: #C778DD 1px solid;
@@ -110,8 +103,6 @@ nav{
     background-color: transparent;
     padding: 5px;
     padding-inline: 10px;
+    cursor: pointer;
 }
 
-footer{
-    margin-inline:20px ;
-}
