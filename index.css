@@ -21,6 +21,14 @@ nav{
     align-content: center;
 
 }
+.right a{
+    text-decoration: none;
+}
+.right a:hover{
+     color: #C778DD;
+}
+
+
 .home_Info{
     display: flex;
     flex-direction: row;
@@ -122,3 +130,94 @@ nav{
     /* box-shadow: 0px 4px 10px rgba(221, 41, 41, 0.8); */
 }
 
+@media (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .home_Info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left_Info {
+        text-align: center;
+        margin: 10px;
+        font-size: 24px;
+    }
+
+    .dummy_img img {
+        margin: 20px;
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .dummy_motivation #slogan {
+        width: 80vw;
+    }
+
+    #by_Who {
+        top: 20px;
+        right: 10px;
+        width: auto;
+    }
+
+    .right {
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .home_Info {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .left_Info {
+        font-size: 20px;
+    }
+
+    .dummy_img img {
+        margin: 10px;
+        width: 90%;
+        max-width: 250px;
+    }
+
+    .home_btns .mail,
+    .home_btns .Download {
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        padding: 10px;
+    }
+
+    .dummy_motivation #slogan {
+        width: 90vw;
+    }
+
+    .home_btns .mail,
+    .home_btns .Download {
+        font-size: 12px;
+        padding: 5px 6px;
+    }
+
+    .left_Info {
+        font-size: 16px;
+    }
+
+    #p1 {
+        font-size: 24px !important;
+    }
+
+    #p2 {
+        font-size: 18px !important;
+    }
+}

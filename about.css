@@ -1,22 +1,79 @@
-*{
-    background-color:#282C33;
+* {
+    background-color: #282C33;
     color: white;
-    font-family:  "Fira Code";
+    font-family: "Fira Code";
 }
-#about{
-    margin-block: 0px;
-    margin-inline:20px ;
 
+#about {
+    margin-block: 0px;
+    margin-inline: 20px;
 }
-.personal_Info{
+
+.personal_Info {
     display: flex;
     column-gap: 50px;
-    margin-inline:20px ;
-
+    margin-inline: 20px;
 }
-#info{
+
+#info {
     font-size: 25px;
 }
-#myPic img{
+
+#myPic img {
     border-radius: 80px;
+    /* width: 100%; */
+    /* max-width: 500px; */
+    height: 500px;
+}
+
+@media (max-width: 1024px) {
+    .personal_Info {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        column-gap: 0;
+        margin-inline: 10px;
+    }
+
+    #info {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    #myPic img {
+        border-radius: 50px;
+        width: 80%;
+        max-width: 250px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #info {
+        font-size: 20px;
+    }
+
+    #myPic img {
+        width: 70%;
+        max-width: 200px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #info {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .personal_Info {
+        margin-inline: 5px;
+    }
+
+    #myPic img {
+        width: 90%;
+        max-width: 180px;
+        border-radius: 30px;
+        height: auto;
+    }
 }

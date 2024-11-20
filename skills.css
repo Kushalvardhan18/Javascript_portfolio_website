@@ -64,3 +64,68 @@
     margin-bottom: 20px;
 
  }
+
+ @media (max-width: 1024px) {
+    .skill_Content {
+        flex-direction: column;
+        gap: 40px;
+        margin-inline: 10px;
+    }
+
+    .skill_Content p,
+    .skill_Content ul {
+        width: 100%;
+    }
+
+    .skill_Content p {
+        font-size: 18px;
+    }
+
+    .skill_Content ul li {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .skill_Content {
+        gap: 20px;
+    }
+
+    .skill_Content p {
+        font-size: 16px;
+    }
+
+    .skill_Content ul li {
+        font-size: 16px;
+    }
+
+    #percentage_bar_1,
+    #percentage_bar_2,
+    #percentage_bar_3,
+    #percentage_bar_4,
+    #percentage_bar_5 {
+        height: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .skill_Content {
+        margin-inline: 5px;
+    }
+
+    .skill_Content p {
+        font-size: 14px;
+    }
+
+    .skill_Content ul li {
+        font-size: 14px;
+    }
+
+    #percentage_bar_1,
+    #percentage_bar_2,
+    #percentage_bar_3,
+    #percentage_bar_4,
+    #percentage_bar_5 {
+        height: 6px;
+    }
+}

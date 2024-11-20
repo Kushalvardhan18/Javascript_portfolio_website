@@ -1,8 +1,9 @@
 footer{
-    margin-inline:20px ;
+    margin:20px ;
 }
 .socials{
     display: flex;
+    gap: 50px;
     flex-wrap: wrap;
 }
 .socials button{
@@ -23,4 +24,66 @@ footer{
 }
 #github{
     cursor: pointer;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.p_footer{
+    display: flex;
+   border: 1px solid #c778dd;
+   padding: 20px;
+    justify-content: space-between;
+    /* background-color: gray; */
+}
+@media (max-width: 1024px) {
+    footer {
+        margin-inline: 10px;
+    }
+
+    .socials {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .p_footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .socials {
+        gap: 15px;
+    }
+
+    .p_footer {
+        padding: 10px;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        margin-inline: 5px;
+    }
+
+    .socials {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .p_footer {
+        padding: 8px;
+        gap: 10px;
+    }
 }

@@ -135,3 +135,92 @@
   gap: 20px;
   flex-direction: column;
 }
+@media (max-width: 1024px) {
+  #contactForm {
+    width: 90%;
+    padding: 30px;
+  }
+
+  #contact_h {
+    font-size: 1.8rem;
+    padding: 8px 16px;
+    top: 100px;
+  }
+
+  #submit_Form {
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
+
+  .resume_download .Download {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  #fullName {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #contact_h {
+    font-size: 1.5rem;
+    padding: 6px 12px;
+    top: 90px;
+  }
+
+  #contactForm {
+    gap: 15px;
+    padding: 20px;
+  }
+
+  #contactForm input,
+  #contactForm textarea {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  #submit_Form {
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
+
+  .resume_download .Download {
+    font-size: 0.8rem;
+    padding: 8px 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  #contact_h {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    top: 80px;
+  }
+
+  #contactForm {
+    width: 100%;
+    padding: 15px;
+  }
+
+  #contactForm input,
+  #contactForm textarea {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+
+  #submit_Form {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+
+  .resume_download .Download {
+    font-size: 0.75rem;
+    padding: 6px 16px;
+  }
+
+  #fullName {
+    gap: 5px;
+  }
+}
