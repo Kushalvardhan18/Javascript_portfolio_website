@@ -72,3 +72,10 @@ const logo_Button = document.querySelector(".left img")
 logo_Button.addEventListener('click',()=>{
     window.location.href = "/index.html"
 })
+
+const currentPath = window.location.pathname.split('/').pop(); // Extracts the last part of the path
+document.querySelectorAll('nav a').forEach(link => {
+    if (link.getAttribute('href').endsWith(currentPath)) {
+        link.classList.add('active');
+    }
+});
