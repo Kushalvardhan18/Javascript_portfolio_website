@@ -3,3 +3,25 @@
     color: white;
     font-family: "Fira Code";
 }
+.resume_download {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .resume_download .Download {
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: 2px solid #c778dd;
+    border-radius: 10px;
+    background: transparent;
+    color: #c778dd;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .resume_download .Download:hover {
+    background: #c778dd;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(199, 120, 221, 0.8);
+  }
