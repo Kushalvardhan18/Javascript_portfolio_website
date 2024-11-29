@@ -1,0 +1,21 @@
+
+body{
+    margin-inline: 20px;
+}
+.projectsCards{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.projectItem{
+    display: flex;
+    border: 1px solid #c778dd;
+    padding: 20px;
+    flex-direction: column;
+    width: 200px;
+}
+.projectItem p{
+    text-wrap:wrap;
+}
